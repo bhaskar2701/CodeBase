@@ -1,4 +1,4 @@
-# https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem
+# 1. https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem
 
 # solution 1:
 
