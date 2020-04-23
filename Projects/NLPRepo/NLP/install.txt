@@ -1,0 +1,25 @@
+conda update -n base conda
+python -m pip install --upgrade pip
+
+#Text related
+pip install -U textblob
+pip install wordcloud
+pip install gensim
+pip install python-rake
+
+# ER
+pip install recordlinkage
+pip install pywsd
+
+# SR
+pip install SpeechRecognition
+pip install PyAudio
+
+pip install goslate
+
+pip install vaderSentiment
+
+pip install spacy # install in admin mode
+python -m spacy download en  # install in admin mode
+
+

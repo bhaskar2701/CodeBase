@@ -1,0 +1,26 @@
+1. Desktop/Laptop: 16 GB RAM, 500 GB HD, 64 bit OS. 
+1.1 Internet access without restriction
+
+2. Please install Anaconda from following link
+https://repo.continuum.io/archive/Anaconda3-5.1.0-Windows-x86_64.exe
+
+3. Install Libraries by running following command on Anaconda Prompt. Use file "Install.txt"
+
+4. Download Data files from locations
+i. file 'OSR_us_000_0010_8k.wav' from location http://www.voiptroubleshooter.com/open_speech/american.html
+and keep in 'data' folder
+ii. file 'OSR_in_000_0062_16k.wav' from location http://www.voiptroubleshooter.com/open_speech/india.html
+and keep in 'data' folder
+iii. Dounload "GoogleNews-vectors-negative300.bin.gz" from https://drive.google.com/uc?id=0B7XkCwpI5KDYNlNUTTlSS21pQmM&export=download
+and unzip and keep in 'model' folder
+iv. Dounload "glove.6B.zip" from here: http://nlp.stanford.edu/data/glove.6B.zip
+and unzip and keep in 'model/glove.6B' folder
+v. Download 'Reviews.csv' from link https://www.kaggle.com/snap/amazon-fine-food-reviews
+and keep in 'data' folder
+
+
+5. For Text mining
+i. Install Java (prefereably latest)
+ii. Add JAVA_HOME to both System and User environment variables
+iii. Download "stanford-ner-2015-04-20" from link https://distfiles.macports.org/stanford-ner/
+and copy in folder "D:\nltk_data" (Windows), /usr/local/share/nltk_data (Mac), /usr/share/nltk_data (Unix)
