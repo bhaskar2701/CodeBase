@@ -16,6 +16,10 @@ def binarySearch(arr , element):
         else:
             start = end + 1
 
-
-index = binarySearch(array1, 5)
-print(index)
+    return -1
+if __name__ == "__main__":
+    index = binarySearch(array, 5)
+    if index == -1:
+        print("Element not found.")
+    else:
+        print("Element found at index: " , index)
